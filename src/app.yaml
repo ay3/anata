@@ -1,6 +1,16 @@
 runtime: php55
 api_version: 1
+instance_class: F1
 threadsafe: true
+
+automatic_scaling:
+  target_cpu_utilization: 0.75
+  target_throughput_utilization: 0.75
+  max_instances: 3
+  min_idle_instances: automatic
+  max_idle_instances: 1
+  min_pending_latency: 3000ms
+  max_pending_latency: automatic
 
 handlers:
 - url: /.*
