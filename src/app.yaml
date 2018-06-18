@@ -19,3 +19,6 @@ handlers:
 - url: /(.+\.(js|css|jpg|png))
   static_files: \1
   upload: (.+\.(js|css|jpg|png))
+- url: /.*
+  static_files: 404.html
+  upload: 404.html
