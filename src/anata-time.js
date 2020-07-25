@@ -1,6 +1,6 @@
 (function(){
     'use strict';
-    var ThTime = new Date(2018, 3, 19, 11, 6, 0); // 2018.4.19
+    var ThTime = new Date(2019, 2, 14, 19, 19, 0); // 2019.2.14
     function updateParagraph(){
     var now = new Date();
     //var days =  (ThTime.getTime() - now.getTime()) / (1000 * 24 * 60 * 60);
